@@ -1,234 +1,108 @@
-body {
-    margin: 0 0 0 0 ;
-    box-shadow: 5px 5px 10px 10px #999;
-    width: 100%;
-    height: 100%;
+/*
+     All copy right reserved To Si Nou V0.1.81.013
+*/
+// Say Hello In Web Page
+alert ("Hello");
+var s;   //value s Lable
+var g;   //value g use to chosse background color by hours day
+var f;   //value f use to chosse fonts color by hours day
+var x=new Date();     //value x to a new time script
+var time=x.getHours();     //value time use to get hours only from value x
+var OK = 'Click To Sing in';
+var OKC;
+var input = document.getElementById('e-mail');
+if (time<109) {
+  f= '#000000';
+  g= '#DDD';
+  s="<h2>&nbsp;Game Download1</h2>";
+  OKC = '#999';
+ // document.getElementById('OK').style.backgroundColor='#F00';
 }
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 10px 2px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #000;
+else {
+  f= '#FFFFFF';
+  g= '#000000';
+  s= "<h2>&nbsp;Game Download1"+"&nbsp;"+"<n>Night Mode</n>";
+  OKC = '333';
 }
-button {
-    background-color: #666;
-    color: white;
-    padding: 14px 74px;
-    margin: 7px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
+document.write(s);
+document.fgColor=f;
+document.bgColor=g;
+
+function show() {
+    document.getElementById('Bd').style.display='block';
 }
-h1 {
-    font-size: 20px;
-    text-align: center;
-}
-       /*    حجم الخطوط    */
-h2 {
-    position: 0;
-    box-shadow: 3px 3px 3px 3px #999;
-    color: #FFF;
-    font-size: 20px;
-    background-color: #689f39;
-    width: 100%; height: 30px;
-    text-align: left;
-}
-       /*    اعدادات العنوان الاعلى   */
-h3 {
-    position: 0;
-    box-shadow: 3px 3px 3px 3px #999;
-    color: #FFF;
-    font-size: 20px;
-    background-color: #689f39;
-    width: 100%; height: 30px;
-    text-align: left;
-}
-n {
-     color: #FFF;
-    font-size: 10px;
-    background-color: #689f39;
-    width: 100%; height: 30px;
-    text-align: left;
-}
-.SDS {
-    font-size: 5px;
-}
-.CopyRight {
-    width: 100%;
-    height: 100%;
-    color: #999;
-    font-family: 'Macondo', cursive;
-}
-        /*    حقوق النشر   */
-.CopyRightF {
-    text-align: center;
-    font-size: 90%;
-}
-      /*    حقوق النشر للخط */
-.Sig {
-   text-align: center; 
-}
-#password {
-   text-align: left; 
-}
-#e-mail {
-   text-align: left; 
-}
-.Login {
-   box-shadow: 3px 3px 3px 3px #999;
-   background-color: #0dDF6E;
-   background-position: center;
-   width: 30%;
-   text-align: center;
-   /*background-attachment:;*/
-}
-#OK {
-    cursor: pointer;
-    display: block;
-    top: 1px;
-    color: white;
-    padding: 14px 10%;
-    margin: 0 0 0 38%;
-    border: none;
-    cursor: pointer;
-    width: auto;
-}
-#Log {
-    padding: 14px 74px;
-    margin: 7px 38%;
-}
-#demo {
-    color: #F00;
-    background-color: rgba(125,125,125,0.49);
-    text-align: Center;
-    background-position: center;
-    width: 35%;
-}
-#demo1 {
-    color: #FFF;
-    background-color: rgba(125,125,125,0.39);
-    text-align: Center;
-    background-position: center;
-    width: 35%;
-}#demo2 {
-    color: #FFF;
-    background-color: rgba(125,125,125,0.39);
-    text-align: Center;
-    background-position: center;
-    width: 35%;
-}     
-button:hover {
-    opacity: 0.8;
+function clos() {
+    document.getElementById('Bd').style.display='none';
 }
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-}
 
-/* Center the image and position the close button */
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-    position: relative;
-}
 
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
+function Si() {
+    if (document.getElementById("e-mail").value=='yacinakon@gmail.com'&document.getElementById("password").value) {
+    document.getElementById("demo").innerHTML='Correct';
 }
-img.avatar2 {
-    width: 40%;
-    border-radius: 50%;
-}
-
-.container {
-    padding: 16px;
-}
-
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal0 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    padding-top: 60px;
-}
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-    position: absolute;
-    right: 25px;
-    top: 0;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #F00;
-    cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-    -webkit-animation: animatezoom 0.7s;
-    animation: animatezoom 0.9s
-}
-
-@-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)}
-    to {-webkit-transform: scale(1)}
-}
-    
-@keyframes animatezoom {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
+    else if (input===''){
+        
     }
-    .cancelbtn {
-       width: 100%;
-    }
-}  
+    else {
+    document.getElementById("demo").innerHTML='Worng Password Or E-mail';
+}
+}
+
+window.onload = function(event) {
+var model = document.getElementById('B0d');
+         if (event.target == model) {
+        model.style.display = 'none';
+}
+};
+
+// BUTTON to reload
+
+
+window.onload = function() {
+     document.getElementById('OK').title=OK;
+     document.getElementById('OK').style.backgroundColor=OKC;
+  //your script here
+if (time<13) {
+      if (time<11) {
+document.getElementById("demo1").innerHTML='صباح الخير';
+}
+      else {
+      if (time<12) {
+document.getElementById("demo1").innerHTML='اقترب موعد الفطور';
+}
+      else {
+document.getElementById("demo1").innerHTML='موعد الفطور';
+      }
+      }
+}
+else { 
+      if (time<20) {
+document.getElementById("demo1").innerHTML='مساء الخير';
+      }
+      else {
+     document.getElementById("demo1").innerHTML='ليلة سعيدة';
+}    //This script use to Hours bey
+}
+
+//ستتقلى تحيات مختلفة تعتمد على اليوم الذي انت فيه اليوم
+var theDay=x.getDay();
+switch (theDay)
+{
+case 5:
+document.getElementById("demo2").innerHTML='وأخيراً يوم الجمعة';
+break;
+
+case 6:
+document.getElementById("demo2").innerHTML='السبت هو بداية يوم العمل';
+break;
+
+case 0:
+document.getElementById("demo2").innerHTML='الأحد يوم آخر من العمل';
+break;
+
+default:
+document.getElementById("demo2").innerHTML='انك بانتظار يوم العطلة';
+}         
+// When the user clicks anywhere outside of the modal, close it
+};
