@@ -1,4 +1,4 @@
-﻿/* 
+/* 
      This Code CSS may be don't Support The Phone Device And Tablet Please Use PC
 */
 body {
@@ -86,34 +86,31 @@ This Place To About Table
 
 #Copy {
     color: black;
-    margin: 37% 0 0 -6;
+    margin: 0 0 0 0;
     font-family: 'Arimo', sans-serif;
     font-size: 75%;
 }
 
 #Profi {
-    
-    margin: 13 0 0 55;
+    margin: -14% 0 0 63%;
     border: 3px solid white;
-    width: 13;
-    height: 16;
+    width: 15%;
 }
 #backo {
-    margin: -7 5 0 0;
-    width: 70%;
-    height: 40%;
+    margin: -40px 5 0 0;
+    width: 80%;
 }
 #Si {
     color: white;
     position: fixed;
     font-size: 100%;
-    margin: 18% 0 0 40%;
+    margin: -11% 0 0 38%;
 }
 #Nou {
     color: white;
     position: fixed;
     font-size: 90%;
-    margin: 21% 0 0 45%;
+    margin: -9% 0 0 38%;
 }
 .close {
     position: relative;
@@ -132,12 +129,11 @@ This Place To About Table
     z-index: 2; /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    width: auto; /* Full width */
+    height: auto; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    padding-top: 60px;
 }
 
 .modal-content {
