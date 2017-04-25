@@ -103,13 +103,13 @@ This Place To About Table
 #Si {
     color: white;
     position: fixed;
-    font-size: 100%;
+    font-size: 160%;
     margin: -11% 0 0 38%;
 }
 #Nou {
     color: white;
     position: fixed;
-    font-size: 90%;
+    font-size: 140%;
     margin: -9% 0 0 38%;
 }
 .close {
@@ -134,6 +134,7 @@ This Place To About Table
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    margin: -3% 0 0 0;
 }
 
 .modal-content {
