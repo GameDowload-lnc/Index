@@ -1,0 +1,214 @@
+body {
+    background-color: white;
+    margin: 0 0 0 0;
+    cursor: default;
+    animation: fadingin 500ms;
+}
+button {
+    cursor: pointer;
+}
+select {
+    border: 2px solid gray;
+    height: 30px;
+    background-color: #aaa;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+#sel {
+    width: 35%;
+    margin: 15% 0 5% 17%;
+}
+#sel1 {
+    display: none;
+    width: 20%;
+    margin: 15% 0 5% 52%;
+}
+#sel2 {
+    display: none;
+    width: 10%;
+    margin: 15% 0 5% 72%;
+}
+#wh {
+    text-align: center;
+    top: 0;
+    color: white;
+    font-size: 40px;
+}
+#fs {
+    color: #ddd;
+    font-family: 'Exo 2', sans-serif;
+    position: absolute;
+    bottom: 0;
+    font-size: 10px;
+}
+#cal {
+    border: 0;
+    position: static;
+    width: 20%;
+    color: gray;
+    margin: 15% 40% 0 40%;
+}
+#elm {
+    color: white;
+    margin: 15% 10% 0 10%;
+    text-align: center;
+    width: 80%;
+}
+#Full {
+    color: #eee;
+    display: inline;
+}
+#Full:hover {
+    text-decoration: underline;
+}
+#inc {
+    color: red;
+}
+#esc {
+    border: 0;
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    color: gray;
+    bottom: 40%;
+    top: 40%;
+    left: 30%;
+    right: 30%;
+    font-size: 30px;
+    
+}
+#esc:hover {
+    box-shadow: 4px 4px 7px 2px;
+}
+#esc:active {
+    box-shadow: 2px 2px 5px 2px;
+}
+#ext {
+    color: white;
+    border: none; 
+    background-color: black;
+    font-size: 20px;
+    width: 25%;
+    height: 10%;
+    position: static;
+    margin: 20% 0 0 75%;
+}
+#ext:hover {
+    box-shadow: 0 2px 5px 1px;
+}
+#ext:active {
+    box-shadow: -1px 1px 3px 3px;
+}
+#bor {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    animation: fadingout 500ms;
+}
+#accept {
+    position: fixed;
+    border: 5px solid #EFEFEF;
+    width: 50%;
+    height: 25%;
+    background-color: white;
+    margin: 0 0 0 0;
+    bottom: 37.5%;
+    top: 37.5%;
+    left: 25%;
+    right: 25%;
+}
+#OK {
+    position: fixed;
+    background-color: white;
+    border: 2px solid green;
+    width: 15%;
+    height: 5%;
+    bottom: 40%;
+    top: 55%;
+    margin: 0 0 0 2.5%;
+}
+#Cen {
+    position: fixed;
+    background-color: white;
+    border: 2px solid red;
+    width: 15%;
+    height: 5%;
+    bottom: 40%;
+    top: 55%;
+    margin: 0 0 0 32.5%;
+}
+#OK:hover,#OK:active {
+    background-color: green;
+    color: white;
+}
+#Cen:hover, #Cen:active {
+    background-color: red;
+    color: white;
+}
+#zeta {
+    font-size: 17px;
+    font-family: 'Baloo', cursive;
+    width: 50%;
+    position: absolute;
+    margin: 2.5% 0 0 0;
+    right: 25%;
+    left: 25%;
+}
+img {
+    position: absolute;
+    width: 5%;
+    bottom: 5%;
+    margin: 0 0 0 90%;
+}
+#seti {
+    font-size: 20px;
+    position: absolute;
+    width: 10%;
+    bottom: 6%;
+    margin: 0 0 0 78%;
+}
+#first1, #first2 {
+    animation: fadingin 1000ms;
+}
+#bgf {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+#Cenc {
+    border: none;
+    width: 20%;
+    height: 10%;
+    color: white;
+    margin: 70% 0 0 65%;
+    background-color: #888;
+    animation: fadingin 1000ms;
+}
+#la {
+    color: White;
+    font-size: 18px;
+    width: 10%;
+    position: absolute;
+    margin: 3.5% 0 0 5%;
+}
+#re {
+    
+}
+#selL {
+    position: absolute;
+    top: 3.5%;
+    left: 20%;
+}
+@keyframes fadingin{
+    from{opacity:0}
+    to{opacity:1}
+}
+@keyframes fadingout{
+    from{opacity:1}
+    to{opacity:0}
+}
