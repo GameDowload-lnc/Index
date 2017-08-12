@@ -1,0 +1,431 @@
+body {
+    background-color: #000;
+}
+#out {
+    position: absolute;
+    color: white;
+}
+.audiofulltime {
+    position: absolute;
+    top: -35px;
+    left: 70px;
+    font-size: 22px;
+}
+#audiofulltimeback {
+    position: absolute;
+    top: -35px;
+    left: 70px;
+    font-size: 22px;
+    color: #1f1f1f;
+}
+.topscreen {
+    color: green;
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    z-index: 1;
+    font-family: 'Digital Num Mono', 'sans-serif';
+}
+.themes {
+    position: relative;
+    top: 13px;
+	display: none;
+    background-color: #999999;
+    border-radius: 10px;
+    left: -5px;
+    height: 80px;
+	animation-name: boe1;
+    animation-duration: 400ms;
+    -webkit-animation-name: boe1;
+    -webkit-animation-duration: 400ms;
+}
+#red, #yellow, #green, #autotheme, #white {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+	cursor: pointer;
+}
+#red {
+    top: 10px;
+    left: 0;
+    background-color: red;
+}
+#yellow {
+    top: 10px;
+    left: 31px;
+    background-color: yellow;
+}
+#green {
+    top: 8px;
+    left: 63px;
+    border: 2px solid #484848;
+    background-color: green;
+}
+#white {
+    top: 10px;
+    left: 99px;
+    background-color: white;
+}
+#autotheme {
+    top: 45px;
+    left: 50px;
+    background: #aaa;
+    background: -webkit-linear-gradient(left,red,yellow,green,white);
+    background: -o-linear-gradient(right,red,yellow,green,white);
+    background: -moz-linear-gradient(right,red,yellow,green,white);
+    background: linear-gradient(to right,red,yellow,green,white);
+}
+.audioname {
+    position: absolute;
+    text-shadow: 0 0 9px green;
+    width: 468px;
+	height: 50px;
+    font-size: 25px;
+    z-index: 2;
+	line-height: 0.9;
+	word-wrap: break-word;
+}
+.audionback {
+    position: absolute;
+    color: #1f1f1f;
+    width: 468px;
+    font-size: 25px;
+	line-height: 0.9;
+	word-wrap: break-word;
+}
+.audionback2 {
+    position: absolute;
+    top: -0px;
+    color: #1f1f1f;
+    width: 468px;
+    font-size: 25px;
+	line-height: 0.9;
+	word-wrap: break-word;
+}
+.bodyscreen {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+}
+.ClockScreen {
+    position: absolute;
+    width: 90%;
+    left: 0;
+}
+#Time {
+    cursor: default;
+    border-radius: 10px;
+    position: absolute;
+    width: 500px;
+    left: 20px;
+    color: green;
+    top: 105px;
+    background-color: #000;
+    height: 180px;
+    font-size: 40px;
+    font-family: 'Digital Num Mono', 'sans-serif';
+    text-align: left;
+    border: 5px solid #444;
+}
+#timesear {
+    position: absolute;
+    top: 0;
+}
+#Date {
+    cursor: default;
+    position: absolute;
+    top: 1px;
+    left: 20px;
+    font-size: 18px;
+    direction: ltr;
+    color: green;
+    font-family: 'Digital Num', 'sans-serif';
+    text-shadow: 0 0 10px green;
+}
+.bottominf {
+    font-family: 'Digital Num', 'sans-serif';
+    font-size: 20px;
+    position: absolute;
+    left: 190px;
+    bottom: 23px;
+}
+.copy {
+    position: absolute;
+    left: 250px;
+    text-shadow: 0 1px 8px green;
+}
+#playpause, .laster, .nexter, .looper, .looperback {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: -4px;
+    left: 235px;
+}
+#plapau, #lasre, #nexre, #loopre, #loopreback {
+    font-size: 28px;
+    color: green;
+    text-shadow: 0 0 15px green;
+}
+.laster {
+    left: 190px;
+}
+.nexter {
+    left: 280px;
+}
+.looper, .looperback {
+    bottom: -18px;
+    left: 320px;
+}
+#titloop, #titloopback {
+    position: relative;
+    color: green;
+    font-size: 13px;
+    top: -25px;
+}
+#loopreback, #titloopback {
+    color: #1f1f1f;
+    text-shadow: none;
+}
+.calc {
+    position: absolute;
+    left: -180px;
+    width: 150px;
+}
+.ap, .Hour, .tyu {
+    display: inline;
+    position: absolute;
+}
+.Hour, .Minute, .Second, .Millisecond, .tyu, .tyu1, .tyu2, .ap {
+    position: absolute;
+    top: 20px;
+}
+#Hour, #Minute, #Second, #Millisecond, #tyu, #tyu1, #tyu2, #ap {
+    text-shadow: 0 0 15px green;
+}
+#Hou1,#Hou3 ,#Minut, #Secon, #Millisecon, #ape, #ty, #ty1, #ty2, #cop, #cale, #Hous {
+    color: #1f1f1f;
+    text-shadow: none;
+}
+#Hou2 {
+     color: black;
+}
+.Millisecond {
+    right: 15px;
+}
+.Second {
+    right: 89px;
+}
+.Minute {
+    right: 145px;
+}
+.Hour {
+    right: 201px;
+}
+.ap {
+    right: 245px;
+}
+.tyu {
+    right: 70px;
+}
+.tyu1 {
+    right: 125px;
+}
+.tyu2 {
+    right: 181px;
+}
+.settings {
+    position: absolute;
+    top: 264px;
+    left: 150px;
+    width: 1px;
+}
+#settingicon {
+    color: green;
+    cursor: pointer;
+    text-shadow: 0 0 5px green;
+}
+#setting {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+}
+.settingtable {
+    width: 130px;
+    height: 160px;
+    color: #fff;
+    background-color: #777;
+    font-family: 'Exo 2', sans-serif;
+    border-radius: 5px;
+    display: none;
+}
+#lang {
+    position: absolute;
+    left: 5px;
+    z-index: 2;
+}
+.themesweb {
+    left: 5px;
+    top: 50px;
+    position: absolute;
+    width: 130px;
+    z-index: 1;
+}
+#langs {
+    background-color: #999;
+    height: 120px;
+    width: 118px;
+    border-radius: 10px;
+    display: none;
+    animation-name: boe;
+    animation-duration: 400ms;
+    -webkit-animation-name: boe;
+    -webkit-animation-duration: 400ms;
+}
+#langtit, #themetit {
+    position: relative;
+    top: -8px;
+    left: 5px;
+}
+#langtab, #themetab {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    background-color: #555;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    height: 23px;
+    cursor: pointer;
+}
+#themetab {
+    top: 10px;
+}
+#ar, #fr, #en, #navauto {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    width: 110px;
+    top: 5px;
+    left: 5px;
+    margin-top: 5px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #aaa;
+}
+#ar:hover, #fr:hover, #en:hover, #navauto:hover {
+    color: green;
+    background-color: #bbb;
+    animation-name: reto;
+    animation-duration: 300ms;
+}
+#eng {
+    top: 59px;
+}
+#fra {
+    top: 84px;
+}
+#auto {
+    top: 109px;
+}
+.linetime {
+    position: absolute;
+    background-color: black;
+    border: 2px solid #222;
+    width: 475px;
+    height: 9px;
+    top: 235px;
+    left: 35px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.timewidth {
+    width: 0%;
+}
+.linetime1 {
+    width: 98%;
+    height: 9px;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+.linetimerun {
+    background-color: green;
+    position: relative;
+    left: -5px;
+    width: 100%;
+    height: 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px green;
+}
+.butlinetime {
+    width: 13px;
+    height: 10px;
+    left: 98%;
+    margin-left: -4px;
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    top: -3px;
+}
+.timeput {
+    position: absolute;
+    top: -10px;
+    left: -1px;
+    width: 460px;
+    opacity: 0;
+    cursor: pointer;
+}
+#goto {
+    position: absolute;
+    top: -77px;
+    left: -20px;
+    width: 510px;
+    height: 120px;
+    background-color: rgba(0,0,0,0);
+    z-index: 3;
+}
+#goto1 {
+    position: absolute;
+    top: 70px;
+    left: 415px;
+    width: 70px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    z-index: 3;
+}
+#goto2 {
+    position: absolute;
+    top: 70px;
+    left: -15px;
+    width: 120px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    z-index: 3;
+}
+@keyframes reto {
+    from{color: #fff;background-color: #aaa;}
+    to{color: green;background-color: #bbb;}
+}
+@-webkit-keyframes reto {
+    from{color: #fff;background-color: #aaa;}
+    to{color: green;background-color: #bbb;}
+}
+@keyframes boe {
+    from{height: 0;border-radius: 0;}
+    to{height: 120px;border-radius: 10px;}
+}
+@-webkit-keyframes boe {
+    from{height: 0;border-radius: 0;}
+    to{height: 120px;border-radius: 10px;}
+}
+@keyframes boe1 {
+    from{height: 0;border-radius: 0;}
+    to{height: 80px;border-radius: 10px;}
+}
+@-webkit-keyframes boe1 {
+    from{height: 0;border-radius: 0;}
+    to{height: 80px;border-radius: 10px;}
+}
