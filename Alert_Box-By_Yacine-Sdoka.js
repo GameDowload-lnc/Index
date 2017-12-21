@@ -8,7 +8,6 @@ div.style.transition = "all 250ms";
 div.style.opacity = 0;
 div.style.top = 0;
 div.style.display = "none";
-div.style.zIndex = 100000;
 var div2 = document.createElement("div");
 div2.style.transition = "all 500ms";
 div2.style.height = "40px";
@@ -61,10 +60,8 @@ div3.appendChild(div4);
 div2.appendChild(div3);
 div2.appendChild(ok_but);
 div.appendChild(div2);
-window.onload = function () {
-    document.body.appendChild(div);
-    document.body.style.margin = 0;
-};
+document.body.appendChild(div);
+document.body.style.margin = 0;
 window.onresize = function () {
     if (cen_check === true) {
         var x = window.innerHeight;
